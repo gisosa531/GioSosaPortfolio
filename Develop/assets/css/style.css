@@ -3,7 +3,7 @@
     box-sizing: border-box;
   }
 
-/*Global variable pseudoelements*/
+/*Global variable pseudoelements involving color*/
 :root {
     --primary:#163e5f ;
     --secondary: #58a7e4;
@@ -11,7 +11,11 @@
     --dark: rgb(1, 56, 1);
     --light:#ebdfcd;
     } 
-
+/*Start of Semantic Code with Scrolling Behavior*/
+html {
+  scroll-behavior: smooth;
+}
+/*Start of body element with removed default margin and padding */
 body {
     margin: 0;
     padding: 0;
@@ -20,22 +24,19 @@ body {
     background-color: var(--light);
     line-height: 1.5;
   }
-  
+/*Removed default margin values to 0*/
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
-  margin: 0;
-  }
-  
+h6,
 p {
   margin: 0;
-}
-
+  }
+/*Header Element styled and made flexible*/
 header {
-    padding: 15px 6% 15px 0;
+    padding: 13px 6% 13px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -44,6 +45,7 @@ header {
     background-color: var(--tertiary);
     box-shadow: 0 5px 35px rgba(66, 157, 160, 0.4);
   }
+/*Header element styled and padded to create space*/
   header h1 {
     color: var(--primary);
     background-color: var(--secondary);
@@ -52,12 +54,13 @@ header {
     font-size: 4vw;
     line-height: 1;
   }
-
+/*Nav element given flex properties*/ 
   nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
+  /*Nav links styled and made responsive */
   nav a {
     text-decoration: none;
     padding: 3px 8px;
@@ -70,19 +73,21 @@ header {
     transition: all 0.25s ease-in;
     font-size: 1.8rem;
   }
+  /*Nav link given a transition property that creates a hover from the bottom*/
   nav a:hover {
     background-size: 100% 100%;
     color: var(--light);
   }
+  /*Removed margin from right side of nav element*/
   nav a:last-child {
     margin-right: 0;
   }
-
+  /*main element given margin top and bottom values*/
   main {
     margin-top: 18px;
     margin-bottom: 45px;
   }
-
+/*Class element of .hero-banner given a background, style descriptions, and flex properties*/
   .hero-banner {
       background:rgb(123, 150, 194); 
       background-image: url("../images/cityscape.jpg");
@@ -97,11 +102,11 @@ header {
       align-items: flex-end;
       text-align: right;
     }
-    
+/*Class element made responsive with flex property*/   
 .hero-banner div {
   flex: 0 0 70%;
 }
-
+/*Styling given to subtitle in Hero section*/
 .hero-banner h2 {
   background-color: var(--secondary);
   color: var(--dark);
@@ -111,13 +116,13 @@ header {
   line-height: 1.2;
   display: inline;
 }
-
+/*Start of Flex styling in main body code regarding About Me*/
 .page-wrapper {
     max-width: 84%;
     margin-left: auto;
     margin-right: auto;
-  }
-
+ }
+ /*Class element that styles About Me section*/ 
 .page-section {
     margin: 27px 0;
     padding: 12px 0;
@@ -127,7 +132,6 @@ header {
     align-items: stretch;
     justify-content: space-between;
  }
-
 .page-section h2 {
     flex: 0 0 18%;
     text-align: right;
@@ -136,8 +140,143 @@ header {
     font-size: 3.5vw;
     line-height: 1.1;
   }
-
-.page-section > div {
-    flex: 0 0 77%;
+  .page-section div {
+    flex: 0 0 76%;
   }
-  
+  .page-section p {
+    margin-bottom: 24px;
+  }
+/*Class element for creating a conatiner for Work section*/
+/*Given flex property to adjust*/
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /*Given background and styled to work section*/
+  .flex-item {
+    border: 6px solid var(--secondary);
+    background-color: grey;
+    color: var(--primary);
+    min-height: 180px;
+    max-height: 180px;
+    flex-basis: calc(50% - 2em);
+    display: flex;
+    align-items: flex-end;
+    padding:0 0 21px 0;
+    margin: 0.3em;
+    text-decoration: none;
+    background-blend-mode: hard-light;
+    background-size: 160%;
+    transition:all 0.5s ;
+    font-size: 0.9rem;
+  }
+
+  /*First Portfolio Item*/
+  .flex-item:first-child {
+    min-height: 369px;
+    flex-basis: 100%;
+}
+  .flex-item:hover {
+    background-color: gainsboro;
+}
+  .flex-item div {
+    background-color: var(--secondary);
+    padding: 6px 9px;
+}
+  .flex-item h3 {
+    font-size: 1.3rem;
+}
+/*class element that creates container and styles it for contact address element*/
+  .contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  .contact address a {
+    color: var(--tertiary);
+    padding: 6px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-style: italic;
+    background-image: linear-gradient(270deg, var(--primary) 0%, var(--secondary) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.15em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    margin: 0 0.15rem 0.1rem;
+    display: inline-block;
+  }
+  /*Creates a animated transition*/
+  .contact address a:hover {
+    background-size: 100% 74%;
+    color: goldenrod;
+  }
+/*Project images linked to the Work section*/
+  .Horiseon{
+    background-image: url("../images/01-html-css-git-homework-demo.png");
+  }
+  .Project-two{
+    background-image: url("../images/Lyon-Brasserie.jpg");
+  }
+  .Project-three{
+    background-image: url("../images/flight.jpg");
+  }
+  .Project-four{
+    background-image: url("../images/bolspiralen.jpg");
+  }
+  .Project-five{
+    background-image: url("../images/tech.jpg");
+  }
+
+  /*Media Query that changes when screen reaches 992px*/
+  @media screen and (max-width: 992px) {
+    header {
+      padding: 0 0 9px 0;
+      justify-content: center;
+      text-align: center;
+    }
+    header h1 {
+      width: 100%;
+      padding: 6px;
+      margin-bottom: 9px;
+      font-size: 9vw;
+    }
+    header nav {
+      justify-content: center;
+    }
+    .page-section h2,
+    .page-section div {
+      flex: 0 0 100%;
+    }
+    .page-section h2 {
+      border-right: none;
+      border-bottom: 3px solid var(--dark);
+      margin-bottom: 18px;
+      padding-bottom: 9px;
+      text-align: left;
+      font-size: 6vw;
+    }
+  }
+
+  /*Media Query that changes when screen reaches 630px*/
+  @media screen and (max-width: 630px) {
+    .flex-item,
+    .flex-item:first-child {
+      flex-basis: 100%;
+    }
+    .flex-item:first-child {
+      min-height: 169px;
+    }
+    .hero-banner {
+      justify-content: center;
+      text-align: center;
+    }
+
+    .contact address {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
