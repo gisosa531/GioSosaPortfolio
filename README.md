@@ -12,9 +12,9 @@ An Employer wants to view my personal portfolio landing page that is built with 
 *Comments were added to explain code for both html and css.
 
 #### Link
-![Link to Deployed Website] (https://gisosa531.github.io/Horiseon-Services-Refactor-Webpage/Develop/index.html)
+![Link to Deployed Website] (https://gisosa531.github.io/Giovanni-Sosa-Portfolio/Develop/index.html)
 
-![link to GitHub Repository] (https://github.com/gisosa531/Horiseon-Services-Refactor-Webpage)
+![link to GitHub Repository] (https://github.com/gisosa531/Giovanni-Sosa-Portfolio)
 
 
 ##### References
