@@ -116,6 +116,11 @@ header {
   line-height: 1.2;
   display: inline;
 }
+.fa {
+  display: inline;
+  justify-content: center;
+  font-size: large;
+}
 /*Start of Flex styling in main body code regarding About Me*/
 .page-wrapper {
     max-width: 84%;
