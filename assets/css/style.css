@@ -221,19 +221,29 @@ header {
   }
 /*Project images linked to the Work section*/
   .Horiseon{
-    background-image: url("../images/01-html-css-git-homework-demo.png");
+    background-image: url("../images/WhatAreWeHavingStart.png");
+    background-size: cover;
+
   }
   .Project-two{
-    background-image: url("../images/Lyon-Brasserie.jpg");
+    background-image: url("../images/Scheduler.png");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .Project-three{
-    background-image: url("../images/flight.jpg");
+    background-image: url("../images/CodingQuiz.png");
+    background-size: cover;
+
   }
   .Project-four{
-    background-image: url("../images/bolspiralen.jpg");
+    background-image: url("../images/WeatherDash.png");
+    background-size: cover;
+
   }
   .Project-five{
-    background-image: url("../images/tech.jpg");
+    background-image: url("../images/PasswordGen.png");
+    background-size: cover;
+
   }
 
   /*Media Query that changes when screen reaches 992px*/
@@ -268,6 +278,9 @@ header {
 
   /*Media Query that changes when screen reaches 630px*/
   @media screen and (max-width: 630px) {
+    nav a {
+      font-size: 1.2rem;
+    }
     .flex-item,
     .flex-item:first-child {
       flex-basis: 100%;
