@@ -23,8 +23,7 @@ An Employer wants to view my personal portfolio landing page that is built with 
 * [https://webdesign.tutsplus.com/tutorialshow-to-build-a-portfolio-page-with-css-javascript--cms-32933] (https://webdesign.tutsplus.com/tutorials/how-to-build-a-portfolio-page-with-css-javascript--cms-32933)
 
 ### Images
-<img src="./Develop/assets/images/Screenshot-1.png" alt="Screenshot of Webpage">
-<img src="./Develop/assets/images/Screenshot-2.png" alt="Screenshot of Webpage">
-<img src="./Develop/assets/images/ShorterShot.png" alt="Screenshot of Webpage">
-<img src="./Develop/assets/images/ShorterShot-2.png" alt="Screenshot of Webpage">
-<img src="./Develop/assets/images/ShorterShot-3.png" alt="Screenshot of Webpage">
+<img src="./assets/images/MainPage.png" alt="Screenshot of Webpage">
+<img src="./assets/images/SecondPage.png" alt="Screenshot of Webpage">
+<img src="./assets/images/MainShort.png" alt="Screenshot of Webpage">
+<img src="./assets/images/SecondShort.png" alt="Screenshot of Webpage">
