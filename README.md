@@ -13,9 +13,9 @@ An Employer wants to view my personal portfolio landing page that is built with 
 *Comments were added to explain code for both html and css.
 
 ## Link
-[Link to Deployed Website] (https://gisosa531.github.io/Giovanni-Sosa-Portfolio-Update/)
+[Link to Deployed Website] (https://gisosa531.github.io/Giovanni-Sosa-Portfolio-Update-2/)
 
-[link to GitHub Repository] (https://github.com/gisosa531/Giovanni-Sosa-Portfolio-Update)
+[link to GitHub Repository] (https://github.com/gisosa531/Giovanni-Sosa-Portfolio-Update-2)
 
 
 ##### References
