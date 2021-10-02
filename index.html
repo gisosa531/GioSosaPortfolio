@@ -1,99 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Giovanni Sosa | Coder</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet"  href="./assets/css/style.css">
-    </head>
 
-    <body>
-        <!--Header with Name and Navigation bar-->
-        <header>
-            <h1><strong>Giovanni Sosa</strong></h1>
-            <nav class=navBar>
-                <a href="#about"><i class="fa fa-male"></i>About Me</a>
-                <a href="#work"><i class="fa fa-briefcase"></i>Work</a>
-                <a href="#contact"><i class="fa fa-id-card"></i> Contact Me</a>
-                <a href="./assets/pdf/Resume For Review.pdf"><i class ="fa fa-file"></i> Resume</a>
-            </nav>
-        </header>
-        <!--Image of Hero Banner-->
-        <section class="hero-banner">
-            <!--Flex container-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giovanni Sosa | Coder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!--Header with Name and Navigation bar-->
+    <header>
+        <h1><strong>Giovanni Sosa</strong></h1>
+        <nav class=navBar>
+            <a href="#about"><i class="fa fa-male"></i>About Me</a>
+            <a href="#work"><i class="fa fa-briefcase"></i>Work</a>
+            <a href="#contact"><i class="fa fa-id-card"></i> Contact Me</a>
+            <a href="./assets/pdf/Resume For Review.pdf"><i class="fa fa-file"></i> Resume</a>
+        </nav>
+    </header>
+    <!--Image of Hero Banner-->
+    <section class="hero-banner">
+        <!--Flex container-->
+        <div>
+            <h2>“Find what you love and let it kill you.” <small><sub>-Charles Bukowski</sub></small></h2>
+        </div>
+    </section>
+
+    <main class="page-wrapper">
+        <!--About Me Section-->
+        <section class="page-section" id="about">
+            <h2>About Me</h2>
             <div>
-                <h2>“Find what you love and let it kill you.” <small><sub>-Charles Bukowski</sub></small></h2>
+                <p>
+                    Aspiring fullstack web developer leveraging brain research, biology, and linguistics background to
+                    create a more intuitive web experience in the medical and research fields. Recently earned a
+                    full-stack development certificate from UC San Diego that improved my skills in JavaScript, CSS,
+                    React.js, and responsive web design.
+                </p>
+                <p>
+                    Known as a lifetime learner and seeker of the truth. This mindset led me to pursue knowledge in many
+                    fields such as the medical, linguistics, and computer field. Recently graduated with a double major
+                    at UC San Diego for Physiology & Neuroscience and Language studies, specifically focused in the
+                    French language. Being Quadrilingual and having an affinity in languages pushed me into the field of
+                    Neurolinguistics and data research. Fully committed to helping my community, I volunteer and help
+                    translate in medical clinics that are located in underserved communities. Developed an independent
+                    business in which I provide my communication services to Professional settings. I am excited to have
+                    a more technological approach in helping others and to allow me to contribute in the pursuit of
+                    knowledge.
+                </p>
             </div>
         </section>
 
-        <main class="page-wrapper">
-            <!--About Me Section-->
-            <section class="page-section" id="about">
-                <h2>About Me</h2>
-                <div>
-                    <p>
-                        Aspiring fullstack web developer leveraging brain research, biology, and linguistics background to create a more intuitive web experience in the medical and research fields. Recently earned a full-stack development certificate from UC San Diego that improved my skills in JavaScript, CSS, React.js, and responsive web design.
-                    </p>
-                    <p>
-                        Known as a lifetime learner and seeker of the truth. This mindset led me to pursue knowledge in many fields such as the  medical, linguistics, and computer field. Recently graduated with a double major at  UC San Diego for Physiology & Neuroscience and Language studies, specifically focused in the French language. Being Quadrilingual and having an affinity in languages pushed me into the field of Neurolinguistics and data research. Fully committed to helping my community, I volunteer and help translate in medical clinics that are located in underserved communities. Developed an independent business in which I provide my communication services to Professional settings. I am excited to have a more technological approach in helping others and to allow me to contribute in the pursuit of knowledge.
-                    </p>
-                </div>
-            </section>
+        <!--Portfolio Work Container with links-->
+        <section class="page-section" id="work">
+            <h2>Work</h2>
+            <div class="flex-container">
+                <a href="https://imoranmo.github.io/What-are-we-having/" class="flex-item Project1">
+                    <div>
+                        <h3>What are we Having?</h3>
+                        <span>HTML/CSS/Javascript/API/Bulma</span>
+                        <form action="https://github.com/gisosa531/What-are-we-having" method="get" target="_blank">
+                            <button type="submit">Repo: Click me</button>
+                        </form>
+                    </div>
+                </a>
 
-            <!--Portfolio Work Container with links-->
-            <section class="page-section" id="work">
-                <h2>Work</h2>
-                <div class="flex-container">
-                    <a href="https://imoranmo.github.io/What-are-we-having/" class="flex-item Horiseon">  
-                        <div>
-                            <h3>What are we Having?</h3>
-                            <span>HTML/CSS/Javascript/API/Bulma</span>
-                        </div>
-                    </a>
+                <a href="https://obscure-reef-30952.herokuapp.com/" class="flex-item Project2">
+                    <div>
+                        <h3>Local4U2U</h3>
+                        <span>HTML/CSS/Javascript/API/Express/NodeJS/HandleBars/SQL/Sequelize</span>
+                        <form action="https://github.com/gisosa531/Local4U2U" method="get" target="_blank">
+                            <button type="submit">Repo: Click me</button>
+                        </form>
+                    </div>
+                </a>
 
-                    <a href="https://gisosa531.github.io/Workday-Planner/" class="flex-item Project-two">
-                        <div>
-                            <h3>Workday Planner</h3>
-                            <span>HTML/CSS/JavaScript/API/Jquery</span>
-                        </div>
-                    </a>
+                <a href="https://gisosa531.github.io/Workday-Planner/" class="flex-item Project-two">
+                    <div>
+                        <h3>Workday Planner</h3>
+                        <span>HTML/CSS/JavaScript/API/Jquery</span>
+                        <form action="https://github.com/gisosa531/Workday-Planner" method="get" target="_blank">
+                            <button type="submit">Repo: Click me</button>
+                        </form>
+                    </div>
+                </a>
 
-                    <a href="https://gisosa531.github.io/Coding-Quiz/" class="flex-item Project-three">
-                        <div>
-                            <h3>Coding Quiz</h3>
-                            <span>HTML/CSS/Javascript</span>
-                        </div>
-                    </a>
+                <a href="https://gisosa531.github.io/Coding-Quiz/" class="flex-item Project-three">
+                    <div>
+                        <h3>Coding Quiz</h3>
+                        <span>HTML/CSS/Javascript</span>
+                        <form action="https://github.com/gisosa531/Coding-Quiz" method="get" target="_blank">
+                            <button type="submit">Repo: Click me</button>
+                        </form>
+                    </div>
+                </a>
 
-                    <a href="https://gisosa531.github.io/Weather-App/" class="flex-item Project-four">
-                        <div>
-                            <h3>Weather App</h3>
-                            <span>API/HTML/Bootstrap/Javascript</span>
-                        </div>
-                    </a>
+                <a href="https://gisosa531.github.io/Weather-App/" class="flex-item Project-four">
+                    <div>
+                        <h3>Weather App</h3>
+                        <span>API/HTML/Bootstrap/Javascript</span>
+                        <form action="https://github.com/gisosa531/Weather-App" method="get" target="_blank">
+                            <button type="submit">Repo: Click me</button>
+                        </form>
+                    </div>
+                </a>
 
-                    <a href="https://gisosa531.github.io/Password-Generator/Develop/index.html" class="flex-item Project-five">
-                        <div>
-                            <h3>Password Generator</h3>
-                            <span>HTML/CSS/Java</span>
-                        </div>
-                    </a>
-                </div>
-            </section>
-            <!--Contact Section with Address Element-->
-            <section class="page-section contact" id="contact">
-                <h2>Contact Me</h2>
-                <div>
-                    <address>
-                        <a href="tel:+17606937564">760.693.7564</a>
-                        <a href="mailto:gio53196@gmail.com">gio53196@gmail.com</a>
-                        <a href="https://github.com/gisosa531">Github</a>
-                        <a href="https://www.linkedin.com/in/giovannisosa531/">LinkedIn</a>
-                    </address>
-                </div>
-            </section>
-        </main>
-    </body>
+                <a href="https://gisosa531.github.io/Password-Generator/Develop/index.html"
+                    class="flex-item Project-five">
+                    <div>
+                        <h3>Password Generator</h3>
+                        <span>HTML/CSS/Java</span>
+                        <form action="https://github.com/gisosa531/Password-Generator" method="get" target="_blank">
+                            <button type="submit">Repo: Click me</button>
+                        </form>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <!--Contact Section with Address Element-->
+        <section class="page-section contact" id="contact">
+            <h2>Contact Me</h2>
+            <div>
+                <address>
+                    <a href="tel:+17606937564">760.693.7564</a>
+                    <a href="mailto:gio53196@gmail.com">gio53196@gmail.com</a>
+                    <a href="https://github.com/gisosa531">Github</a>
+                    <a href="https://www.linkedin.com/in/giovannisosa531/">LinkedIn</a>
+                </address>
+            </div>
+        </section>
+    </main>
+</body>
+
+<script src="./assets/js/functions.js"></script>
+
 </html>

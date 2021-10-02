@@ -220,10 +220,14 @@ header {
     color: goldenrod;
   }
 /*Project images linked to the Work section*/
-  .Horiseon{
+  .Project1{
     background-image: url("../images/WhatAreWeHavingStart.png");
     background-size: cover;
 
+  }
+  .Project2{
+    background-image: url("../images/Local4U2U.png");
+    background-size: cover;
   }
   .Project-two{
     background-image: url("../images/Scheduler.png");

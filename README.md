@@ -1,6 +1,7 @@
 # GioSosaPortfolio
 Personal Portfolio that Showcases Major Works through a Responsive Layout Designed Webpage
-
+(Profile page is currently being remodeled
+FOR A QUICK PREVIEW PLEASE UTILIZE THE index.html file!!!)
 ## Description
 An Employer wants to view my personal portfolio landing page that is built with HTML and customized with advanced CSS. Implemented what we learned  throughout the week in order to create a webpage that can be improved as we finish more assignments.
 
@@ -11,7 +12,7 @@ An Employer wants to view my personal portfolio landing page that is built with 
 *Classes were labeled as concise as possible
 *Comments were added to explain code for both html and css.
 
-#### Link
+## Link
 [Link to Deployed Website] (https://gisosa531.github.io/Giovanni-Sosa-Portfolio-Update/)
 
 [link to GitHub Repository] (https://github.com/gisosa531/Giovanni-Sosa-Portfolio-Update)
