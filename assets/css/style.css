@@ -182,6 +182,14 @@ header {
     min-height: 369px;
     flex-basis: 100%;
 }
+  /* .flex-item:nth-child(2) {
+    min-height: 369px;
+    flex-basis: 50%;
+}
+.flex-item:nth-child(3) {
+  min-height: 369px;
+  flex-basis: 50%;
+} */
   .flex-item:hover {
     background-color: gainsboro;
 }
@@ -221,12 +229,18 @@ header {
   }
 /*Project images linked to the Work section*/
   .Project1{
-    background-image: url("../images/WhatAreWeHavingStart.png");
+    background-image: url(https://user-images.githubusercontent.com/82477037/142139271-e29a2cfa-7dd6-44df-8be5-d92b3544d16b.png);
     background-size: cover;
+    background-repeat: no-repeat;
+
 
   }
   .Project2{
     background-image: url("../images/Local4U2U.png");
+    background-size: cover;
+  }
+  .Project3{
+    background-image: url("../images/WhatAreWeHavingStart.png");
     background-size: cover;
   }
   .Project-two{
@@ -247,8 +261,12 @@ header {
   .Project-five{
     background-image: url("../images/PasswordGen.png");
     background-size: cover;
-
   }
+  .Project-six {
+    background-image: url("../images/WorkoutTrackerHomePage.png");
+    background-size: cover;
+  }
+  
 
   /*Media Query that changes when screen reaches 992px*/
   @media screen and (max-width: 992px) {
